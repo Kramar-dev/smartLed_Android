@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\Iggi\.gradle\caches\transforms-3\54c8ca687820e9d3e712fb0f80d369db\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\Iggi\.gradle\caches\transforms-3\36564d0865de864933f8cf11c694e8f0\transformed\material-1.6.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Iggi\.gradle\caches\transforms-3\9c1cd906c7cb969b12aca273ab5dc1ef\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
@@ -44,25 +44,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Iggi\.gradle\cac
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Iggi\.gradle\caches\transforms-3\a6c77d7d16fd9fb2a8a81371969807f7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Iggi\.gradle\caches\transforms-3\160418e823fbae82d5e9f080cac2355f\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Iggi\.gradle\caches\transforms-3\b398e7ff9b7773421af48f679cda41b8\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:3:11-33
 		INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml
 		INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml
-		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml
-		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:5:5-21:19
+ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:5:5-27:19
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\Iggi\.gradle\caches\transforms-3\36564d0865de864933f8cf11c694e8f0\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\Iggi\.gradle\caches\transforms-3\36564d0865de864933f8cf11c694e8f0\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Iggi\.gradle\caches\transforms-3\9c1cd906c7cb969b12aca273ab5dc1ef\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
@@ -91,22 +91,34 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Iggi\.gradle\cache
 		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:6:13-39
 	android:theme
 		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:11:13-50
-activity#com.smartled.MainActivity
-ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:12:9-20:20
+activity#com.smartled.DeviceActivity
+ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:12:9-14:42
 	android:exported
 		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:14:17-40
 	android:name
-		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:13:17-45
+		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:13:17-47
+activity#com.smartled.SettingsActivity
+ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:15:9-17:42
+	android:exported
+		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:17:17-40
+	android:name
+		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:16:17-49
+activity#com.smartled.MainActivity
+ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:18:9-26:20
+	android:exported
+		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:20:17-40
+	android:name
+		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:19:17-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:16:17-68
+ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:22:17-68
 	android:name
-		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:18:17-76
+ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:24:17-76
 	android:name
-		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:24:27-74
 uses-sdk
 INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml

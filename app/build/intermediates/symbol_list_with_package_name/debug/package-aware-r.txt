@@ -2468,6 +2468,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_refresh
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2611,7 +2612,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2744,7 +2744,6 @@ id included
 id info
 id invisible
 id inward
-id ipAddress
 id italic
 id item1
 id item2
@@ -2856,7 +2855,6 @@ id pathRelative
 id peekHeight
 id percent
 id pin
-id port
 id position
 id postLayout
 id progress_circular
@@ -3096,7 +3094,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_device
 layout activity_main
+layout activity_settings
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3189,6 +3189,7 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu example_menu
 menu example_menu2
+menu settings
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

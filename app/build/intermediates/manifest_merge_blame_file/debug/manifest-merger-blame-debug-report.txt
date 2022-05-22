@@ -11,7 +11,7 @@
 9-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:5:5-21:19
+11-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:5:5-27:19
 12        android:allowBackup="true"
 12-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:6:13-39
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -30,44 +30,56 @@
 21        android:theme="@style/Theme.SmartLed" >
 21-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:11:13-50
 22        <activity
-22-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:12:9-20:20
-23            android:name="com.smartled.MainActivity"
-23-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:13:17-45
-24            android:exported="true" >
+22-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:12:9-14:42
+23            android:name="com.smartled.DeviceActivity"
+23-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:13:17-47
+24            android:exported="true" />
 24-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:14:17-40
-25            <intent-filter>
-25-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:15:13-19:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:16:17-68
-26-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:16:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:18:17-76
-28-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:18:27-74
-29            </intent-filter>
-30        </activity>
-31
-32        <provider
-32-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Iggi\.gradle\caches\transforms-3\891686b2e8eb2cc6f10574c9517b73e3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-33            android:name="androidx.startup.InitializationProvider"
-33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Iggi\.gradle\caches\transforms-3\891686b2e8eb2cc6f10574c9517b73e3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-34            android:authorities="com.smartled.androidx-startup"
-34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Iggi\.gradle\caches\transforms-3\891686b2e8eb2cc6f10574c9517b73e3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-35            android:exported="false" >
-35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Iggi\.gradle\caches\transforms-3\891686b2e8eb2cc6f10574c9517b73e3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-36            <meta-data
-36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Iggi\.gradle\caches\transforms-3\891686b2e8eb2cc6f10574c9517b73e3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-37                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Iggi\.gradle\caches\transforms-3\891686b2e8eb2cc6f10574c9517b73e3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-38                android:value="androidx.startup" />
-38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Iggi\.gradle\caches\transforms-3\891686b2e8eb2cc6f10574c9517b73e3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-39            <meta-data
-39-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Iggi\.gradle\caches\transforms-3\ed95c3fcdaca855fc3d7a7f4fa440eb0\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-40                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Iggi\.gradle\caches\transforms-3\ed95c3fcdaca855fc3d7a7f4fa440eb0\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-41                android:value="androidx.startup" />
-41-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Iggi\.gradle\caches\transforms-3\ed95c3fcdaca855fc3d7a7f4fa440eb0\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-42        </provider>
-43    </application>
-44
-45</manifest>
+25        <activity
+25-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:15:9-17:42
+26            android:name="com.smartled.SettingsActivity"
+26-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:16:17-49
+27            android:exported="true" />
+27-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:17:17-40
+28        <activity
+28-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:18:9-26:20
+29            android:name="com.smartled.MainActivity"
+29-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:19:17-45
+30            android:exported="true" >
+30-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:20:17-40
+31            <intent-filter>
+31-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:21:13-25:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:22:17-68
+32-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:22:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:24:17-76
+34-->X:\projects\esp32\smartLed\android\smartLed\app\src\main\AndroidManifest.xml:24:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <provider
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Iggi\.gradle\caches\transforms-3\891686b2e8eb2cc6f10574c9517b73e3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+39            android:name="androidx.startup.InitializationProvider"
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Iggi\.gradle\caches\transforms-3\891686b2e8eb2cc6f10574c9517b73e3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+40            android:authorities="com.smartled.androidx-startup"
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Iggi\.gradle\caches\transforms-3\891686b2e8eb2cc6f10574c9517b73e3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+41            android:exported="false" >
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Iggi\.gradle\caches\transforms-3\891686b2e8eb2cc6f10574c9517b73e3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+42            <meta-data
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Iggi\.gradle\caches\transforms-3\891686b2e8eb2cc6f10574c9517b73e3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+43                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Iggi\.gradle\caches\transforms-3\891686b2e8eb2cc6f10574c9517b73e3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+44                android:value="androidx.startup" />
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Iggi\.gradle\caches\transforms-3\891686b2e8eb2cc6f10574c9517b73e3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+45            <meta-data
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Iggi\.gradle\caches\transforms-3\ed95c3fcdaca855fc3d7a7f4fa440eb0\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+46                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Iggi\.gradle\caches\transforms-3\ed95c3fcdaca855fc3d7a7f4fa440eb0\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+47                android:value="androidx.startup" />
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Iggi\.gradle\caches\transforms-3\ed95c3fcdaca855fc3d7a7f4fa440eb0\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+48        </provider>
+49    </application>
+50
+51</manifest>

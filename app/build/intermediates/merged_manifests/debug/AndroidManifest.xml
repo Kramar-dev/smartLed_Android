@@ -20,6 +20,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.SmartLed" >
         <activity
+            android:name="com.smartled.DeviceActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.smartled.SettingsActivity"
+            android:exported="true" />
+        <activity
             android:name="com.smartled.MainActivity"
             android:exported="true" >
             <intent-filter>

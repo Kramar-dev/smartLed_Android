@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/projects/esp32/smartLed/android/smartLed/app/src/main/res/drawable/ic_refresh.xml" value="0.5296296296296297" />
         <entry key="..\:/projects/esp32/smartLed/android/smartLed/app/src/main/res/layout/activity_main.xml" value="0.2689969604863222" />
+        <entry key="..\:/projects/esp32/smartLed/android/smartLed/app/src/main/res/menu/settings.xml" value="0.4675925925925926" />
       </map>
     </option>
   </component>
