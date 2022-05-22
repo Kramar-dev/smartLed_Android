@@ -1,6 +1,8 @@
 package com.smartled
 
 import android.annotation.SuppressLint
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
@@ -12,8 +14,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-
 
     }
 
@@ -27,7 +27,13 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.item2 -> {
-                Toast.makeText(this, "setting selected", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "settings selected", Toast.LENGTH_SHORT).show()
+                Intent(this, SettingsActivity::class.java).also {
+
+
+                    startActivity(it)
+                }
+
                 return true
             }
         }
