@@ -1,4 +1,4 @@
-package com.smartled
+package com.activities
 
 import android.annotation.SuppressLint
 import android.content.Context
